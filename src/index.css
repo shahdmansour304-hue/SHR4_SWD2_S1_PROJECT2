@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* LuxeTech Design System — Midnight Indigo */
+
+@layer base {
+  :root {
+    --background: 240 33% 99%;
+    --foreground: 240 30% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 30% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 30% 12%;
+
+    /* Indigo — LuxeTech signature */
+    --primary: 244 76% 59%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 230 94% 82%;
+    --primary-container: 244 65% 48%;
+
+    --secondary: 240 15% 35%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-container: 240 25% 92%;
+
+    --muted: 240 20% 95%;
+    --muted-foreground: 240 10% 40%;
+
+    --accent: 230 94% 82%;
+    --accent-foreground: 244 76% 30%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 240 15% 88%;
+    --input: 240 15% 90%;
+    --ring: 244 76% 59%;
+
+    --surface: 240 33% 99%;
+    --surface-bright: 0 0% 100%;
+    --surface-container: 240 25% 96%;
+    --surface-container-low: 240 30% 97.5%;
+    --surface-container-high: 240 20% 93%;
+    --surface-variant: 240 20% 94%;
+    --on-surface-variant: 240 10% 35%;
+    --outline: 240 10% 55%;
+    --outline-variant: 240 15% 82%;
+
+    --radius: 0.75rem;
+
+    --gradient-hero: linear-gradient(135deg, hsl(244 76% 59%) 0%, hsl(265 70% 55%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(240 33% 99%) 0%, hsl(240 25% 95%) 100%);
+    --shadow-elegant: 0 20px 50px -20px hsl(244 76% 45% / 0.35);
+    --shadow-soft: 0 4px 20px -4px hsl(240 30% 20% / 0.10);
+    --shadow-card: 0 1px 3px 0 hsl(240 30% 12% / 0.06), 0 1px 2px 0 hsl(240 30% 12% / 0.04);
+
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 240 35% 7%;
+    --foreground: 240 20% 96%;
+    --card: 240 32% 10%;
+    --card-foreground: 240 20% 96%;
+    --popover: 240 32% 10%;
+    --popover-foreground: 240 20% 96%;
+
+    --primary: 235 90% 72%;
+    --primary-foreground: 240 35% 8%;
+    --primary-glow: 230 94% 82%;
+    --primary-container: 244 76% 60%;
+
+    --secondary: 240 20% 18%;
+    --secondary-foreground: 240 20% 96%;
+    --secondary-container: 240 25% 16%;
+
+    --muted: 240 25% 14%;
+    --muted-foreground: 240 15% 70%;
+
+    --accent: 244 60% 30%;
+    --accent-foreground: 230 94% 88%;
+
+    --destructive: 0 70% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 240 22% 20%;
+    --input: 240 22% 18%;
+    --ring: 235 90% 72%;
+
+    --surface: 240 35% 7%;
+    --surface-bright: 240 30% 13%;
+    --surface-container: 240 28% 11%;
+    --surface-container-low: 240 30% 9%;
+    --surface-container-high: 240 25% 15%;
+    --surface-variant: 240 25% 14%;
+    --on-surface-variant: 240 15% 75%;
+    --outline: 240 15% 55%;
+    --outline-variant: 240 20% 25%;
+
+    --gradient-hero: linear-gradient(135deg, hsl(244 76% 45%) 0%, hsl(265 65% 40%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(240 35% 7%) 0%, hsl(240 30% 9%) 100%);
+    --shadow-elegant: 0 20px 50px -20px hsl(244 90% 30% / 0.6);
+    --shadow-soft: 0 4px 20px -4px hsl(0 0% 0% / 0.4);
+    --shadow-card: 0 1px 3px 0 hsl(0 0% 0% / 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "ss01", "cv11";
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight;
+  }
+}
+
+@layer components {
+  .material-icon {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+}
