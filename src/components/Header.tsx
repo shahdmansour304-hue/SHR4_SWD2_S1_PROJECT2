@@ -24,8 +24,8 @@ const Header = () => {
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-xl">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2 text-xl font-extrabold tracking-tight text-primary">
-          <img src={logo} alt="LuxeTech logo" width={32} height={32} className="h-8 w-8 object-contain" />
-          <span>LuxeTech</span>
+          <img src={logo} alt="LuxeCart logo" width={32} height={32} className="h-8 w-8 object-contain" />
+          <span>LuxeCart</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">

@@ -7,16 +7,16 @@ const Footer = () => {
         <div className="grid gap-12 md:grid-cols-4">
           <div className="md:col-span-2">
             <Link to="/" className="text-2xl font-extrabold tracking-tight text-primary">
-              LuxeTech
+              LuxeCart
             </Link>
             <p className="mt-4 max-w-sm text-sm text-muted-foreground leading-relaxed">
               Minimalist Excellence. Redefining high-end technology for the modern professional.
             </p>
             <div className="mt-6 flex gap-3">
               {[
-                { icon: "public", href: "https://luxetech.example.com", label: "Website" },
-                { icon: "photo_camera", href: "https://instagram.com/luxetech", label: "Instagram" },
-                { icon: "location_on", href: "https://maps.google.com/?q=LuxeTech+Store", label: "Find a store" },
+                { icon: "public", href: "https://luxeCart.example.com", label: "Website" },
+                { icon: "photo_camera", href: "https://instagram.com/luxeCart", label: "Instagram" },
+                { icon: "location_on", href: "https://maps.google.com/?q=LuxeCart+Store", label: "Find a store" },
               ].map((s) => (
                 <a
                   key={s.icon}
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 border-t border-border/60 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-muted-foreground">© 2024 LuxeTech. Minimalist Excellence.</p>
+          <p className="text-xs text-muted-foreground">© 2024 LuxeCart. Minimalist Excellence.</p>
           <div className="flex items-center gap-2 text-xs text-muted-foreground">
             <span className="material-icon text-[16px]">language</span>
             <span>English (US)</span>

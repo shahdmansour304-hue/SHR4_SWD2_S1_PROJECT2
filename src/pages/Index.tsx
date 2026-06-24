@@ -156,7 +156,7 @@ const Index = () => {
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {[
-            { name: "Sarah M.", text: "Fast delivery and the quality is just incredible. LuxeTech is my go-to store now!", rating: 5 },
+            { name: "Sarah M.", text: "Fast delivery and the quality is just incredible. LuxeCart is my go-to store now!", rating: 5 },
             { name: "Ahmed K.", text: "Customer support helped me pick the perfect product. Loyalty points are a huge bonus.", rating: 5 },
             { name: "Jessica R.", text: "I love the flash deals! Got 30% off my favorite item. Highly recommend.", rating: 5 },
           ].map((t) => (
