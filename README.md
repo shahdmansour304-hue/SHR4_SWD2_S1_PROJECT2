@@ -55,3 +55,6 @@ An advanced, fully responsive E-commerce platform built as a graduation project.
 **1. تحميل المكتبات البرمجية والاعتمادات الأساسية:**
 ```bash
 npm install
+**2. تشغيل المشروع في بيئة التطوير المحلية:**
+```bash
+npm run dev
